@@ -24,7 +24,21 @@
 
 //=======================================================================================
 //lesson 5 : Array
-let Array = [1, 2, 3, 'Misha', 'Nadya']
-let Array2 = [1, 'string']
-let bag = []
-console.log(Array[4])
+// let Array = [1, 2, 3, 'Misha', 'Nadya']
+// let Array2 = [1, 'string']
+// let bag = []
+// console.log(Array[4])
+
+//=======================================================================================
+//lesson 6 : cycle for
+let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
+// console.log(Array[0])
+// console.log(Array[1])
+// console.log(Array[2])
+// console.log(Array[3])
+// console.log(Array[4])
+// console.log(Array);
+
+for (let i = 0; i < 6; i = i + 1) {
+    console.log(Array[i])
+}
