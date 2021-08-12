@@ -31,14 +31,28 @@
 
 //=======================================================================================
 //lesson 6 : cycle for
-let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
+// let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
 // console.log(Array[0])
 // console.log(Array[1])
 // console.log(Array[2])
 // console.log(Array[3])
 // console.log(Array[4])
 // console.log(Array);
+// for (let i = 0; 6 < 6; i = i + 1) {
+//     console.log(Array[i])
+// }
+//=======================================================================================
+//lesson 7 : cycle for +Array.length
 
-for (let i = 0; i < 6; i = i + 1) {
+// let hello = 'hello';
+// console.log(hello.length)
+// let world = 'hello world';
+// console.log(world.length)
+// let Array = [1, 2, 3, 4, 5]
+// console.log(Array.length)
+
+let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
+
+for (let i = 0; i < Array.length; i = i + 1) {
     console.log(Array[i])
 }
