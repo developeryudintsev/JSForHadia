@@ -51,8 +51,15 @@
 // let Array = [1, 2, 3, 4, 5]
 // console.log(Array.length)
 
+// let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
+
+// for (let i = 0; i < Array.length; i = i + 1) {
+//     console.log(Array[i])
+// }
+//=======================================================================================
+//lesson 8 : cycle foreach
 let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
 
-for (let i = 0; i < Array.length; i = i + 1) {
-    console.log(Array[i])
-}
+Array.forEach(element => {
+    console.log(element)
+});
