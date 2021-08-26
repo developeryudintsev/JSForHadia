@@ -58,8 +58,15 @@
 // }
 //=======================================================================================
 //lesson 8 : cycle foreach
-let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
+// let Array = [1, 2, 3, 'Misha', 'Nadya', 'Sasha']
 
-Array.forEach(element => {
+// Array.forEach(element => {
+//     console.log(element)
+// });
+//=======================================================================================
+//lesson 9 : cycle map
+let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
+
+Array.map(element => {
     console.log(element)
-});
+})
