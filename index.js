@@ -65,8 +65,32 @@
 // });
 //=======================================================================================
 //lesson 9 : cycle map
+// let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
+
+// Array.map(element => {
+//     console.log(element)
+// })
+//=======================================================================================
+//lesson 10 : push & pop
+//push-add new element
+//pop- delete last element in array
+// let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
+
+// Array.pop()
+
+// Array.map(element => {
+//     console.log(element)
+// })
+
+//=======================================================================================
+//lesson 11 : shift & unshift
+//push -add new element in the end of array
+//unshift-add new element in the beginning of array
 let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
 
-Array.map(element => {
-    console.log(element)
+// Array.unshift('Olga')
+Array.shift()
+
+Array.map(elemnt => {
+    console.log(elemnt)
 })
