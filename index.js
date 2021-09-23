@@ -86,11 +86,30 @@
 //lesson 11 : shift & unshift
 //push -add new element in the end of array
 //unshift-add new element in the beginning of array
-let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
+//pop-delete element in the end of array
+//shift -delete element in the beginning of array 
+// let Array = [1, 2, 3, 'Emilka', 'Nadya', 'Sasha']
 
 // Array.unshift('Olga')
-Array.shift()
+// Array.shift()
 
-Array.map(elemnt => {
-    console.log(elemnt)
-})
+// Array.map(elemnt => {
+//     console.log(elemnt)
+// })
+//=======================================================================================
+//lesson 12 : object
+
+let person = {
+    name: 'Nadka',//string
+    syrName: 'Y',//string
+    age: 7,//number
+    schoolGirl: true,//boolean
+    schoolBoy: false,//boolean
+}
+
+console.log(person.name)
+console.log(person.syrName)
+console.log(person.age)
+console.log(person.schoolGirl)
+console.log(person.schoolBoy)
+console.log(person)
